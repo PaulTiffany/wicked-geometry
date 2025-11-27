@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this geometry, please cite it as below."
+authors:
+  - family-names: "Tiffany"
+    given-names: "Paul"
+title: "The Wicked Prior as a Bounded-Observer Manifold"
+version: 1.0.0
+date-released: 2025-11-23
+url: "https://github.com/yourusername/wicked-manifold"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Tiffany"
+    given-names: "Paul"
+  title: "The Wicked Prior as a Bounded-Observer Manifold: Atlas Fracture, Stackelberg Parentage, and Grace-Flow Repair"
+  year: 2025
+  month: 11
