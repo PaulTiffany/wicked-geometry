@@ -5,7 +5,7 @@
 
 **The Wicked Prior** establishes a geometric framework for analyzing how institutional authorities (Stackelberg leaders) misclassify corrective signals as adversarial noise.
 
-This repository contains the formal proofs and the **V-Baum Validation Protocol** code corresponding to the paper: *The Wicked Duology as a Bounded-Observer Manifold*.
+This repository contains the formal proofs and the **V-Baum Validation Protocol** code corresponding to the paper: *The Wicked Prior as a Bounded-Observer Manifold*.
 
 ## 📄 Abstract
 We formalize the *Wicked* narrative as an instantiation of bounded symbolic geometry. Oz is modeled as a manifold $\mathcal{M}$ equipped with an outer projection metric $g_{out}$ (social legibility) and an inner emergence metric $g_{in}$ (truth-seeking). We demonstrate that the "Defying Gravity" event represents an **Atlas Fracture**—a curvature blow-up where the outer chart fails to map the inner territory.
