@@ -16,7 +16,7 @@ To empirically validate the geometric thesis, we apply `oz_fracture.py` to the o
 **Hypothesis:** The unmasking of the Wizard (Chapter 15) constitutes a measurable discontinuity in semantic entropy.
 **Result:** The model detects a sharp spike in embedding curvature ($||Ric||$) at the precise narrative moment the screen falls.
 
-![Atlas Fracture Plot](images/atlas_fracture_evidence.png)
+![Atlas Fracture Plot](./atlas_fracture_evidence.png)
 
 ## 🛠 Usage
 This repository implements the geometric curvature estimator described in Tiffany (2025).
