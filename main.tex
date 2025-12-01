@@ -237,7 +237,10 @@ def detect_chart_break(embedding_sequence,
 
 \subsection{Empirical Validation: V-Baum Protocol Results}
 
-We applied the curvature detector to Baum's 1900 text (Project Gutenberg epub/55: 212,653 characters, 1,059 windows, sentence-transformers/all-MiniLM-L6-v2 embeddings, prominence threshold $2.0\sigma$).
+We applied the curvature detector to Baum's 1900 text (Project Gutenberg epub/55).
+The corpus contains 212{,}653 characters across 1{,}059 windows using
+sentence-transformers/all-MiniLM-L6-v2 embeddings with a prominence threshold
+$2.0\sigma$.
 
 \textbf{Result:} The dominant peak (prominence 0.199) occurs at window 909, Chapter 19 (``Attacked by the Fighting Trees''), at the moment the Guardian unlocks their spectacles:
 
