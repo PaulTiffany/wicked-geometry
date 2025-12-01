@@ -1,0 +1,282 @@
+==========================================================================================
+VALIDATION PROTOCOL V-BAUM
+Atlas Fracture Detection in Narrative Embedding Space
+==========================================================================================
+
+ANALYSIS METADATA
+------------------------------------------------------------------------------------------
+Document:           The Wonderful Wizard of Oz
+Author:             L. Frank Baum
+Publication:        1900
+Source:             Project Gutenberg (epub/55)
+Analysis Date:      2025-11-30 23:28:20
+Text Length:        212,653 characters
+Chapters Detected:  24
+
+METHOD
+------------------------------------------------------------------------------------------
+Embedding Model:    sentence-transformers/all-MiniLM-L6-v2
+Window Size:        1000 characters
+Step Size:          200 characters
+Total Windows:      1059
+Curvature Metric:   Cosine distance between consecutive embeddings
+Peak Detection:     Prominence ≥ 2.0σ
+Peaks Detected:     30
+
+CURVATURE STATISTICS
+------------------------------------------------------------------------------------------
+Mean Curvature:     0.1088
+Std Deviation:      0.0446
+Maximum:            0.3691
+Minimum:            0.0176
+
+==========================================================================================
+DETECTED ATLAS FRACTURES
+==========================================================================================
+
+Peaks ranked by prominence (semantic discontinuity strength).
+Higher prominence indicates stronger atlas fracture.
+
+──────────────────────────────────────────────────────────────────────────────────────────
+FRACTURE #1
+──────────────────────────────────────────────────────────────────────────────────────────
+Window Index:       909
+Character Position: 181,800
+Prominence:         0.1993
+Curvature ||Ric||:  0.2472
+Location:           Chapter 19: "Attacked by the Fighting Trees"
+
+NARRATIVE CONTEXT:
+──────────────────────────────────────────────────────────────────────────────────────────
+“So now let us all get ready, for it will be a long journey.” Chapter XIX Attacked by
+the Fighting Trees The next morning Dorothy kissed the pretty green girl good-bye,
+and they all shook hands with the soldier with the green whiskers, who had walked
+with them as far as the gate. When the Guardian of the Gate saw them again he
+wondered greatly that they could leave the beautiful City to get into new trouble.
+But he at once unlocked their spectacles, which he put back into the green box, and
+gave them many good wishes to carry with them. “You are now our ruler,” he said to
+the Scarecrow; “so you must come back to us as soon as possible.” “I certainly shall
+if I am able,” the Scarecrow replied; “but I must help Dorothy to get home, first.”
+As Dorothy bade
+──────────────────────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────────────────────
+FRACTURE #2
+──────────────────────────────────────────────────────────────────────────────────────────
+Window Index:       45
+Character Position: 9,000
+Prominence:         0.1340
+Curvature ||Ric||:  0.2149
+Location:           Chapter 2: "The Council with the Munchkins"
+
+NARRATIVE CONTEXT:
+──────────────────────────────────────────────────────────────────────────────────────────
+The Council with the Munchkins She was awakened by a shock, so sudden and severe that
+if Dorothy had not been lying on the soft bed she might have been hurt. As it was,
+the jar made her catch her breath and wonder what had happened; and Toto put his cold
+little nose into her face and whined dismally. Dorothy sat up and noticed that the
+house was not moving; nor was it dark, for the bright sunshine came in at the window,
+flooding the little room. She sprang from her bed and with Toto at her heels ran and
+opened the door. The little girl gave a cry of amazement and looked about her, her
+eyes growing bigger and bigger at the wonderful sights she saw. The cyclone had set
+the house down very gently—for a cyclone—in the midst of a country of marvelous
+beauty.
+──────────────────────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────────────────────
+FRACTURE #3
+──────────────────────────────────────────────────────────────────────────────────────────
+Window Index:       722
+Character Position: 144,400
+Prominence:         0.1253
+Curvature ||Ric||:  0.2010
+Location:           Chapter 14: "The Winged Monkeys"
+
+NARRATIVE CONTEXT:
+──────────────────────────────────────────────────────────────────────────────────────────
+s far below them. Dorothy found herself riding easily between two of the biggest
+Monkeys, one of them the King himself. They had made a chair of their hands and were
+careful not to hurt her. “Why do you have to obey the charm of the Golden Cap?” she
+asked. “That is a long story,” answered the King, with a winged laugh; “but as we
+have a long journey before us, I will pass the time by telling you about it, if you
+wish.” “I shall be glad to hear it,” she replied. “Once,” began the leader, “we were
+a free people, living happily in the great forest, flying from tree to tree, eating
+nuts and fruit, and doing just as we pleased without calling anybody master. Perhaps
+some of us were rather too full of mischief at times, flying down to pull the tails
+of the animals that had
+──────────────────────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────────────────────
+FRACTURE #4
+──────────────────────────────────────────────────────────────────────────────────────────
+Window Index:       286
+Character Position: 57,200
+Prominence:         0.1195
+Curvature ||Ric||:  0.1717
+Location:           Chapter 7: "The Journey to the Great Oz"
+
+NARRATIVE CONTEXT:
+──────────────────────────────────────────────────────────────────────────────────────────
+You can roast it by the fire, since your tastes are so peculiar that you prefer
+cooked food, and then you will have a very good breakfast.” “Don’t! Please don’t,”
+begged the Tin Woodman. “I should certainly weep if you killed a poor deer, and then
+my jaws would rust again.” But the Lion went away into the forest and found his own
+supper, and no one ever knew what it was, for he didn’t mention it. And the Scarecrow
+found a tree full of nuts and filled Dorothy’s basket with them, so that she would
+not be hungry for a long time. She thought this was very kind and thoughtful of the
+Scarecrow, but she laughed heartily at the awkward way in which the poor creature
+picked up the nuts.
+──────────────────────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────────────────────
+FRACTURE #5
+──────────────────────────────────────────────────────────────────────────────────────────
+Window Index:       468
+Character Position: 93,600
+Prominence:         0.1105
+Curvature ||Ric||:  0.1644
+Location:           Chapter 10: "The Guardian of the Gate"
+
+NARRATIVE CONTEXT:
+──────────────────────────────────────────────────────────────────────────────────────────
+There were two golden bands fastened to them that passed around the back of her head,
+where they were locked together by a little key that was at the end of a chain the
+Guardian of the Gates wore around his neck. When they were on, Dorothy could not take
+them off had she wished, but of course she did not wish to be blinded by the glare of
+the Emerald City, so she said nothing. Then the green man fitted spectacles for the
+Scarecrow and the Tin Woodman and the Lion, and even on little Toto; and all were
+locked fast with the key. Then the Guardian of the Gates put on his own glasses and
+told them he was ready to show them to the Palace.
+──────────────────────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────────────────────
+FRACTURE #6
+──────────────────────────────────────────────────────────────────────────────────────────
+Window Index:       698
+Character Position: 139,600
+Prominence:         0.1099
+Curvature ||Ric||:  0.1671
+Location:           Chapter 14: "The Winged Monkeys"
+
+NARRATIVE CONTEXT:
+──────────────────────────────────────────────────────────────────────────────────────────
+When the four travelers went in search of the Witch she had seen them coming, and so
+sent the Winged Monkeys to bring them to her. It was much harder to find their way
+back through the big fields of buttercups and yellow daisies than it was being
+carried. They knew, of course, they must go straight east, toward the rising sun; and
+they started off in the right way. But at noon, when the sun was over their heads,
+they did not know which was east and which was west, and that was the reason they
+were lost in the great fields. They kept on walking, however, and at night the moon
+came out and shone brightly. So they lay down among the sweet smelling yellow flowers
+and slept soundly until morning—all but the S
+──────────────────────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────────────────────
+FRACTURE #7
+──────────────────────────────────────────────────────────────────────────────────────────
+Window Index:       231
+Character Position: 46,200
+Prominence:         0.1012
+Curvature ||Ric||:  0.1680
+Location:           Chapter 5: "The Rescue of the Tin Woodman"
+
+NARRATIVE CONTEXT:
+──────────────────────────────────────────────────────────────────────────────────────────
+She thought of a new way to kill my love for the beautiful Munchkin maiden, and made
+my axe slip again, so that it cut right through my body, splitting me into two
+halves. Once more the tinsmith came to my help and made me a body of tin, fastening
+my tin arms and legs and head to it, by means of joints, so that I could move around
+as well as ever. But, alas! I had now no heart, so that I lost all my love for the
+Munchkin girl, and did not care whether I married her or not. I suppose she is still
+living with the old woman, waiting for me to come after her. “My body shone so
+brightly in the sun that I felt very proud of it and it did not matter now if my axe
+slipped, for it could not cut me.
+──────────────────────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────────────────────
+FRACTURE #8
+──────────────────────────────────────────────────────────────────────────────────────────
+Window Index:       847
+Character Position: 169,400
+Prominence:         0.1010
+Curvature ||Ric||:  0.1812
+Location:           Chapter 17: "How the Balloon Was Launched"
+
+NARRATIVE CONTEXT:
+──────────────────────────────────────────────────────────────────────────────────────────
+thy back to Kansas, and I’m sure I don’t know how it can be done.” Chapter XVII How
+the Balloon Was Launched For three days Dorothy heard nothing from Oz. These were sad
+days for the little girl, although her friends were all quite happy and contented.
+The Scarecrow told them there were wonderful thoughts in his head; but he would not
+say what they were because he knew no one could understand them but himself. When the
+Tin Woodman walked about he felt his heart rattling around in his breast; and he told
+Dorothy he had discovered it to be a kinder and more tender heart than the one he had
+owned when he was made of flesh. The Lion declared he was afraid of nothing on earth,
+and would gladly face an army or a dozen of the fierce Kalidahs. Thus each of the
+little pa
+──────────────────────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────────────────────
+FRACTURE #9
+──────────────────────────────────────────────────────────────────────────────────────────
+Window Index:       98
+Character Position: 19,600
+Prominence:         0.0985
+Curvature ||Ric||:  0.1590
+Location:           Chapter 3: "How Dorothy Saved the Scarecrow"
+
+NARRATIVE CONTEXT:
+──────────────────────────────────────────────────────────────────────────────────────────
+o barked after her loudly enough when she had gone, because he had been afraid even
+to growl while she stood by. But Dorothy, knowing her to be a witch, had expected her
+to disappear in just that way, and was not surprised in the least. Chapter III How
+Dorothy Saved the Scarecrow When Dorothy was left alone she began to feel hungry. So
+she went to the cupboard and cut herself some bread, which she spread with butter.
+She gave some to Toto, and taking a pail from the shelf she carried it down to the
+little brook and filled it with clear, sparkling water. Toto ran over to the trees
+and began to bark at the birds sitting there. Dorothy went to get him, and saw such
+delicious fruit hanging from the branches that she gathered some of it, finding it
+just what she want
+──────────────────────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────────────────────
+FRACTURE #10
+──────────────────────────────────────────────────────────────────────────────────────────
+Window Index:       967
+Character Position: 193,400
+Prominence:         0.0984
+Curvature ||Ric||:  0.1504
+Location:           Chapter 20: "The Dainty China Country"
+
+NARRATIVE CONTEXT:
+──────────────────────────────────────────────────────────────────────────────────────────
+The Clown put his hands in his pockets, and after puffing out his cheeks and nodding
+his head at them saucily, he said: “My lady fair, Why do you stare At poor old Mr.
+Joker? You’re quite as stiff And prim as if You’d eaten up a poker!” “Be quiet, sir!”
+said the Princess. “Can’t you see these are strangers, and should be treated with
+respect?” “Well, that’s respect, I expect,” declared the Clown, and immediately stood
+upon his head. “Don’t mind Mr. Joker,” said the Princess to Dorothy. “He is
+considerably cracked in his head, and that makes him foolish.” “Oh, I don’t mind him
+a bit,” said Dorothy. “But you are so beautiful,” she continued, “that I am sure I
+could love you dearly.
+──────────────────────────────────────────────────────────────────────────────────────────
+
+==========================================================================================
+END OF REPORT
+==========================================================================================
+
+INTERPRETATION NOTES:
+
+Atlas fractures represent moments where the narrative's semantic geometry
+undergoes rapid transformation. These correspond to:
+  • World-boundary crossings (entering/exiting bounded-observer spaces)
+  • Identity transformations (character state transitions)
+  • Institutional reconfigurations (authority/metric collapses)
+  • Resolution changes (outer projection filter modifications)
+
+The dominant peak (#1) represents the most significant discontinuity in
+the text's embedding space, indicating the primary atlas fracture.
+
+For methodology details, see:
+Tiffany, P. (2025). The Wicked Prior as a Bounded-Observer Manifold:
+Atlas Fracture, Stackelberg Parentage, and Grace-Flow Repair.
