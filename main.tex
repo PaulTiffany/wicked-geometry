@@ -200,40 +200,25 @@ Peaks in $\kappa_t$ indicate rapid semantic acceleration consistent with atlas f
 \subsection{Chart-break detection algorithm}
 \begin{mdframed}[backgroundcolor=theoremblue,linewidth=0pt]
 \begin{verbatim}
-import numpy as np
-from scipy.signal import find_peaks
+def compute_curvature(embeddings):
+    # Cosine distance between consecutive embeddings
+    curv = []
+    for i in range(1, len(embeddings)):
+        k = cosine(embeddings[i-1], embeddings[i])
+        curv.append(k)
+    return np.array(curv)
 
-def detect_chart_break(embedding_sequence, 
-                       window=1, use_cosine=True):
-    seq = np.asarray(embedding_sequence)
-    T = len(seq)
-    if T < 2*window + 1:
-        return np.array([], dtype=int), np.array([])
-
-    def diff(a, b):
-        if not use_cosine:
-            return b - a
-        na, nb = np.linalg.norm(a), np.linalg.norm(b)
-        if na == 0 or nb == 0:
-            return b - a
-        return (b/nb) - (a/na)
-
-    curvature = []
-    for t in range(window, T-window):
-        tp = diff(seq[t], seq[t+window])
-        tm = diff(seq[t-window], seq[t])
-        second = tp - tm
-        denom = (np.linalg.norm(tp) + 
-                 np.linalg.norm(tm) + 1e-8)
-        curvature.append(np.linalg.norm(second)/denom)
-    curvature = np.array(curvature)
-
+def detect_peaks(curvature, prominence_factor=2.0):
+    # Peaks where curvature exceeds median + factor * MAD
     med = np.median(curvature)
     mad = np.median(np.abs(curvature - med)) + 1e-8
-    peaks,_ = find_peaks(curvature, prominence=3.0*mad)
-    return peaks + window, curvature
+    prominence = prominence_factor * mad
+    peaks, props = find_peaks(curvature, prominence=prominence)
+    return peaks, props
 \end{verbatim}
 \end{mdframed}
+See \texttt{oz\_fracture.py} for the full implementation (embedding, smoothing,
+context extraction, and plotting).
 
 \subsection{Empirical Validation: V-Baum Protocol Results}
 
