@@ -4,10 +4,14 @@
 
 **A geometric framework for analyzing how institutional authorities misclassify corrective signals as adversarial noise.**
 
-This repository contains the formal proofs, validation code, and research artifacts corresponding to the paper:
+This repository contains the formal arguments, validation code, and research artifacts corresponding to the paper:
 
 > **The Wicked Prior as a Bounded-Observer Manifold: Atlas Fracture, Stackelberg Parentage, and Grace-Flow Repair**  
 > Paul Tiffany (2025)
+
+**Wicked Geometry (working program name):** applies bounded-observer geometry to narratives and institutions to expose atlas fracture (outer map vs inner territory) and to design grace-flow repairs.
+
+**TL;DR for alignment/econ readers:** Narrative treated as a curved manifold shows a dominant curvature spike at the Wizard unmasking; that geometry transfers to institutional settings as mis-specified Stackelberg games. The remedy is a grace-flow schedule that preserves identity while reconciling outer and inner metrics, yielding testable predictions (P1–P6) and training tweaks (A1–A3).
 
 ## Abstract
 
