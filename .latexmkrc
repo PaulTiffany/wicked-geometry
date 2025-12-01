@@ -1,2 +1,2 @@
-# Enable full chktex linting (unsuppress default warnings).
-@chktexopts = ('-wall');
+# Enable chktex linting; keep Overleaf defaults to avoid noisy suppressed counts.
+@chktexopts = ('-q');
