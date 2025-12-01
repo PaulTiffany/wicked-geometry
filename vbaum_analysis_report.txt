@@ -9,7 +9,7 @@ Document:           The Wonderful Wizard of Oz
 Author:             L. Frank Baum
 Publication:        1900
 Source:             Project Gutenberg (epub/55)
-Analysis Date:      2025-11-30 23:28:20
+Analysis Date:      2025-12-01 00:22:47
 Text Length:        212,653 characters
 Chapters Detected:  24
 

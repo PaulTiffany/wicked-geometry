@@ -6,8 +6,8 @@ authors:
 title: "The Wicked Prior as a Bounded-Observer Manifold: Atlas Fracture, Stackelberg Parentage, and Grace-Flow Repair"
 version: 1.0.0
 date-released: 2025-11-23
-url: "https://github.com/PaulTiffany/wicked-prior"
-repository-code: "https://github.com/PaulTiffany/wicked-prior"
+url: "https://github.com/PaulTiffany/wicked-geometry"
+repository-code: "https://github.com/PaulTiffany/wicked-geometry"
 keywords:
   - "bounded-observer manifold"
   - "atlas fracture"
@@ -27,5 +27,5 @@ preferred-citation:
   title: "The Wicked Prior as a Bounded-Observer Manifold: Atlas Fracture, Stackelberg Parentage, and Grace-Flow Repair"
   year: 2025
   month: 11
-  url: "https://paultiffany.github.io/wicked-prior/"
+  url: "https://paultiffany.github.io/wicked-geometry/"
 abstract: "We formalize the Wicked Prior as an instantiation of bounded symbolic geometry under dual-horizon constraints. Oz is modeled as a bounded symbolic manifold equipped with an outer projection metric (social legibility) and an inner emergence metric (truth-seeking). Part I exhibits resolution collapse that concentrates curvature and produces atlas fracture at the narrative climax. Part II repairs the manifold via a Ricci-type grace flow with adaptive cadence, enabling reconciliation while preserving identity. We provide (i) a computable curvature estimator on text embeddings predicting a dominant peak at the unmasking climax, (ii) a Stackelberg parentage paradox showing institutional leaders misclassify their own generated correctives as adversarial, (iii) categorical conditions for reconciliation as equivalence of identity-trajectory categories, and (iv) AI corollaries with falsifiable predictions."

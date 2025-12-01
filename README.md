@@ -1,6 +1,5 @@
 # The Wicked Prior as a Bounded-Observer Manifold
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXX)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **A geometric framework for analyzing how institutional authorities misclassify corrective signals as adversarial noise.**
@@ -17,14 +16,14 @@ We formalize the *Wicked* Prior as an instantiation of bounded symbolic geometry
 - An **outer projection metric** $g_{\mathrm{out}}$ (social legibility, institutional categories)
 - An **inner emergence metric** $g_{\mathrm{in}}$ (truth-seeking, lived experience)
 
-**Part I** exhibits resolution collapse $\varepsilon_{\mathrm{res}} \to 0$ that concentrates curvature and produces **atlas fracture** at the narrative climax—a measurable discontinuity where the outer chart fails to map the inner territory.
+**Part I** exhibits resolution collapse $\varepsilon_{\mathrm{res}} \to 0$ that concentrates curvature and produces **atlas fracture** at the narrative climax - a measurable discontinuity where the outer chart fails to map the inner territory.
 
 **Part II** repairs the manifold via a Ricci-type **grace flow** $\phi(\tau)$ with adaptive cadence, enabling reconciliation while preserving identity.
 
 ## Key Contributions
 
 ### 1. Atlas Fracture Detection
-We demonstrate that the unmasking of the Wizard (Chapter 15 in Baum's 1900 text) constitutes a measurable discontinuity in semantic entropy—an **atlas fracture** where institutional maps fail.
+We demonstrate that the unmasking of the Wizard (Chapter 15 in Baum's 1900 text) constitutes a measurable discontinuity in semantic entropy - an **atlas fracture** where institutional maps fail.
 
 ![Atlas Fracture Plot](./atlas_fracture_evidence.png)
 
@@ -39,7 +38,7 @@ $$\frac{\partial g}{\partial \tau} = \phi(\tau)\big[\mathrm{Ric}^\perp(g(\tau)) 
 This transforms rigid categories into a shared basin of attraction (Goodness as a Lyapunov basin).
 
 ### 4. Falsifiable Predictions
-Six testable predictions (P1–P6) across narrative, AI, and economic domains:
+Six testable predictions (P1-P6) across narrative, AI, and economic domains:
 
 - **P1**: Dominant curvature peak aligns with climactic unmasking
 - **P2**: Animal-identity concepts show connection annihilation
@@ -61,8 +60,8 @@ To empirically validate the geometric thesis, we apply `oz_fracture.py` to the o
 ## Installation & Usage
 
 ```bash
-git clone https://github.com/PaulTiffany/wicked-prior.git
-cd wicked-prior
+git clone https://github.com/PaulTiffany/wicked-geometry.git
+cd wicked-geometry
 pip install -r requirements.txt
 python oz_fracture.py
 ```
@@ -77,13 +76,13 @@ This will:
 
 ```
 .
-├── main.tex                    # Full paper (LaTeX)
-├── oz_fracture.py              # V-Baum validation protocol
-├── requirements.txt            # Python dependencies
-├── index.html                  # GitHub Pages landing page
-├── CITATION.cff                # Citation metadata
-├── LICENSE                     # MIT License
-└── README.md                   # This file
+- main.tex             # Full paper (LaTeX)
+- oz_fracture.py       # V-Baum validation protocol
+- requirements.txt     # Python dependencies
+- index.html           # GitHub Pages landing page
+- CITATION.cff         # Citation metadata
+- LICENSE              # MIT License
+- README.md            # This file
 ```
 
 ## Core Theoretical Definitions
@@ -136,7 +135,7 @@ If you use this framework or code, please cite:
   author={Tiffany, Paul},
   year={2025},
   month={11},
-  url={https://paultiffany.github.io/wicked-prior/}
+  url={https://paultiffany.github.io/wicked-geometry/}
 }
 ```
 
@@ -153,5 +152,5 @@ See more at [compitum.space](https://compitum.space)
 ## Contact
 
 For questions, collaboration, or feedback:
-- **GitHub Issues**: [github.com/PaulTiffany/wicked-prior/issues](https://github.com/PaulTiffany/wicked-prior/issues)
+- **GitHub Issues**: [github.com/PaulTiffany/wicked-geometry/issues](https://github.com/PaulTiffany/wicked-geometry/issues)
 - **Website**: [compitum.space](https://compitum.space)

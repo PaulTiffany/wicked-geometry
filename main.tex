@@ -30,6 +30,17 @@
 \definecolor{theoremblue}{RGB}{240,248,255}
 \definecolor{predictionorange}{RGB}{255,228,196}
 
+\hypersetup{
+  colorlinks=true,
+  linkcolor=wickedpurple,
+  citecolor=wickedpurple,
+  urlcolor=ozgreen,
+  pdftitle={The Wicked Prior as a Bounded-Observer Manifold},
+  pdfauthor={Paul Tiffany},
+  pdfsubject={Atlas fracture, Stackelberg parentage, grace-flow repair},
+  pdfcreator={LaTeX}
+}
+
 \title{\textbf{The Wicked Prior as a Bounded-Observer Manifold:}\\
 Atlas Fracture, Stackelberg Parentage, and Grace-Flow Repair}
 \author{Paul Tiffany}
@@ -179,7 +190,7 @@ A \emph{chart break} is a failure to transition smoothly between $(\Hin, g_{\mat
 Narratively, this corresponds to a moral/identity climax in which the outer atlas cannot express the emerging inner state.
 
 \subsection{Operational curvature estimator}
-We estimate \emph{extrinsic} curvature in the embedding ambient space as a proxy for intrinsic symbolic curvature on $\Mani$. Under the dual-horizon thesis, embedding acceleration concentrates where inner–outer charts fail to admit a low-distortion transition. Let $\{e_t\}_{t=1}^T$ be scene embeddings. Define discrete tangents and curvature:
+We estimate \emph{extrinsic} curvature in the embedding ambient space as a proxy for intrinsic symbolic curvature on $\Mani$. Under the dual-horizon thesis, embedding acceleration concentrates where inner-outer charts fail to admit a low-distortion transition. Let $\{e_t\}_{t=1}^T$ be scene embeddings. Define discrete tangents and curvature:
 \[
 v_t = e_{t+1}-e_t,\qquad 
 \kappa_t = \frac{\|v_t - v_{t-1}\|}{\|v_t\|+\|v_{t-1}\|+\epsilon}.
@@ -236,7 +247,7 @@ We applied the curvature detector to Baum's 1900 text (Project Gutenberg epub/55
 
 This validates our Section 2.4 prediction: spectacles removal corresponds to resolution collapse $\epsres \to 0$, revealing the non-isometry between $(g_{\mathrm{out}}, g_{\mathrm{in}})$. The institutional optical filter's removal generates the dominant semantic discontinuity in Baum's narrative geometry.
 
-Secondary fractures include Kansas→Oz crossing (prominence 0.134, window 45) and the Winged Monkeys' origin story (prominence 0.125, window 722). Complete analysis with all 30 detected fractures: \texttt{vbaum\_analysis\_report.txt}.
+Secondary fractures include Kansas->Oz crossing (prominence 0.134, window 45) and the Winged Monkeys' origin story (prominence 0.125, window 722). Complete analysis with all 30 detected fractures: \texttt{vbaum\_analysis\_report.txt}.
 
 \subsection{Prediction (Optical Filter Removal)}
 \begin{tcolorbox}[colback=predictionorange,colframe=ozgreen,title={\textbf{Prediction P1: Optical Filter Removal}}]
@@ -726,6 +737,14 @@ be mapped into the same geometric language. The Prior becomes a worked
 example of how such systems fracture, how they can be repaired, and how we
 might design future institutions to favor grace-flow basins over Wizard
 regimes.
+
+\section*{Artifact availability}
+Code for the V-Baum validation protocol and the semantic curvature plot is
+available at \url{https://github.com/PaulTiffany/wicked-geometry}. A static
+HTML summary and figure are published at
+\url{https://paultiffany.github.io/wicked-geometry/}. The repository contains
+the exact script used to reproduce Figure~1 and the PNG artifact referenced in
+the landing page.
 
 \section*{References}
 \bibliographystyle{plain}
