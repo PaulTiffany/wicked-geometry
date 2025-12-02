@@ -1,0 +1,41 @@
+{
+  "research_program": "Wicked Geometry (Compitum research program)",
+  "core_framework": "Bounded-observer symbolic geometry",
+  "key_concepts": [
+    "Dual-horizon manifolds",
+    "Atlas fracture",
+    "Stackelberg parentage",
+    "Grace-flow repair",
+    "Resolution floor"
+  ],
+  "empirical_validations": [
+    {
+      "name": "V-Baum Protocol",
+      "corpus": "The Wonderful Wizard of Oz (Baum, 1900)",
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "window_size_chars": 1000,
+      "step_size_chars": 200,
+      "dominant_peak": {
+        "chapter": 19,
+        "location": "Spectacles removal / Attacked by the Fighting Trees",
+        "window_index": 909,
+        "prominence": 0.1993,
+        "curvature": 0.2472
+      }
+    }
+  ],
+  "falsifiable_predictions": ["P1", "P2", "P3", "P4", "P5", "P6"],
+  "applications": [
+    "AI alignment",
+    "Regulatory capture",
+    "Narrative topology",
+    "Institutional design"
+  ],
+  "assets": [
+    "main.tex",
+    "wicked_geometry.pdf",
+    "oz_fracture.py",
+    "atlas_fracture_evidence.png",
+    "vbaum_analysis_report.txt"
+  ]
+}
