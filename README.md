@@ -7,7 +7,7 @@
 This repository contains the formal arguments, validation code, and research artifacts corresponding to the paper:
 
 > **The Wicked Prior as a Bounded-Observer Manifold: Atlas Fracture, Stackelberg Parentage, and Grace-Flow Repair**  
-> Paul Tiffany (2025)
+> Paul Carver Tiffany III (2025)
 
 **PDF:** [wicked_geometry.pdf](./wicked_geometry.pdf)
 
